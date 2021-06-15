@@ -18,8 +18,6 @@ public class DuplicateValueCount {
 		set.add(dp);
 		set.add(dp1);
 		System.out.println(set.size());
-		
-
 	}
 
 }
