@@ -15,7 +15,6 @@ public class GeneratePranthese {
 	        backtrack(list, "", 0, 0, n);
 	        return list;
 	    }
-	    
 	    public void backtrack(List<String> list, String str, int open, int close, int max){
 	        
 	        if(str.length() == max*2){
