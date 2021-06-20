@@ -13,6 +13,7 @@ public class Fibanocci {
 			n1=n2;
 			n2=n3;
 			System.out.print(n3);
+			fibo(num-1);
 		}
 	}
 
